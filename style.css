@@ -54,7 +54,7 @@ h1 {
   border: none;
   border-radius: 7px;
   outline: none;
-  box-shadow: 2px 3px 5px #c9c7c7;
+  box-shadow: 2px 3px 5px #dfdede;
   transition: 0.3s;
 }
 #solve:hover {
