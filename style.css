@@ -11,33 +11,20 @@
 body {
   background-color: #fdf9fd;
 }
-#firstnum {
-  margin-bottom: 0.313rem;
-  border-radius: 0.313rem;
-  border: 1px solid;
-}
-#firstnum:focus {
-  border: 1px solid #a900f7;
-  outline: none;
-}
-#secondnum {
-  margin-bottom: 0.313rem;
-  border-radius: 0.313rem;
-  border: 1px solid;
-}
-#secondnum:focus {
-  border: 1px solid #a900f7;
-  outline: none;
-}
+#firstnum,
+#secondnum,
 #units {
   margin-bottom: 0.313rem;
   border-radius: 0.313rem;
   border: 1px solid;
 }
+#firstnum:focus,
+#secondnum:focus,
 #units:focus {
   border: 1px solid #a900f7;
   outline: none;
 }
+
 h1 {
   margin: 2rem 0em;
 }
@@ -50,17 +37,17 @@ h1 {
   color: rgb(25, 1, 24);
   background-repeat: no-repeat;
   background: rgb(1, 255, 0);
-
   border: none;
   border-radius: 7px;
   outline: none;
   box-shadow: 2px 3px 5px #dfdede;
   transition: 0.3s;
 }
-#solve:hover {
+#solve:hover,
+#circum:hover,
+#area:hover {
   box-shadow: 5px 7px 8px #ffffff00;
-  width: 96px;
-  height: 31px;
+
   box-shadow: 0px 4px 6px #abaaaa;
 }
 #summary {
@@ -76,6 +63,7 @@ h1 {
   box-shadow: 3px 4px 6px #dfdede;
   border-radius: 7px;
   margin: 0 0.313rem;
+  transition: 0.3s;
 }
 #area {
   height: 30px;
@@ -87,6 +75,7 @@ h1 {
   background: rgb(237, 55, 225);
   margin: 0 0.313rem;
   box-shadow: 3px 4px 6px #dfdede;
+  transition: 0.3s;
 }
 
 @media only screen and (max-width: 426px) {
