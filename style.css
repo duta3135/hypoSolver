@@ -88,3 +88,9 @@ h1 {
   margin: 0 5px;
   box-shadow: 3px 4px 6px #dfdede;
 }
+
+@media only screen and (max-width: 426px) {
+  #firstnum {
+    width: 400px;
+  }
+}
