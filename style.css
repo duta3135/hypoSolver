@@ -14,8 +14,8 @@ body {
 #firstnum,
 #secondnum,
 #units {
-  margin-bottom: 0.313rem;
-  border-radius: 0.313rem;
+  margin-bottom: 0.3rem;
+  border-radius: 0.3rem;
   border: 1px solid;
   width: 17em;
 }
@@ -31,11 +31,11 @@ h1 {
   font-size: 3rem;
 }
 #solve {
-  margin-top: 0.938rem;
-  margin-bottom: 0.938rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   height: 1.875rem;
   text-align: center;
-  width: 5.938rem;
+  width: 6rem;
   color: rgb(25, 1, 24);
   background-repeat: no-repeat;
   background: rgb(1, 255, 0);
@@ -56,7 +56,7 @@ h1 {
   text-decoration: underline rgb(255, 0, 0);
 }
 #circum {
-  width: 8.438rem;
+  width: 8.5rem;
   border: none;
   outline: none;
   height: 1.875rem;
@@ -64,18 +64,18 @@ h1 {
   background: rgb(0, 186, 200);
   box-shadow: 3px 4px 6px #dfdede;
   border-radius: 7px;
-  margin: 0 0.313rem;
+  margin: 0 0.3rem;
   transition: 0.3s;
 }
 #area {
   height: 1.875rem;
-  width: 8.438rem;
+  width: 8.5rem;
   border: none;
   outline: none;
   color: #d4f0d6;
   border-radius: 7px;
   background: rgb(237, 55, 225);
-  margin: 0 0.313rem;
+  margin: 0 0.3rem;
   box-shadow: 3px 4px 6px #dfdede;
   transition: 0.3s;
 }
