@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pythagoras hypotenuse solver</title>
+    </head>
+    <body>
+        <h1>Hypotenuse solver</h1>
+        <img src="Pythagorean.svg" width="200" height="200"><br>
+        <input type="number" placeholder="a side length" id="firstnum">
+        <br>
+        <input type="number" placeholder="b side length" id="secondnum">
+        <br>
+        <button onclick="submit()">solve</button>
+        <p id="answer"></p>
+        <p id="steps"></p>
+        <p id="summary"></p>
+        <script>
+            function submit(){
+                var first = document.getElementById("firstnum").value;
+                var second = document.getElementById("secondnum").value;
+                var first2 = +first * +first;
+                var second2 = +second * +second;
+                var answer = first2 + second2;
+                document.getElementById("answer").innerHTML = "c^2 = " + answer;
+                document.getElementById("steps").innerHTML = "steps: find the square of " + first + " and " + second + ", then add those numbers.";
+                document.getElementById("summary").innerHTML = "Summary: " + first2 + " + " + second2 + " = " + answer;
+                
+            }
+        </script>
+    </body>
+</html>
