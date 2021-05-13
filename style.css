@@ -17,6 +17,7 @@ body {
   margin-bottom: 0.313rem;
   border-radius: 0.313rem;
   border: 1px solid;
+  width: 17em;
 }
 #firstnum:focus,
 #secondnum:focus,
@@ -27,13 +28,14 @@ body {
 
 h1 {
   margin: 2rem 0em;
+  font-size: 3.125rem;
 }
 #solve {
-  margin-top: 0.938;
-  margin-bottom: 0.938;
-  height: 30px;
+  margin-top: 0.938rem;
+  margin-bottom: 0.938rem;
+  height: 1.875rem;
   text-align: center;
-  width: 95px;
+  width: 5.938rem;
   color: rgb(25, 1, 24);
   background-repeat: no-repeat;
   background: rgb(1, 255, 0);
@@ -54,10 +56,10 @@ h1 {
   text-decoration: underline rgb(255, 0, 0);
 }
 #circum {
-  width: 135px;
+  width: 8.438rem;
   border: none;
   outline: none;
-  height: 30px;
+  height: 1.875rem;
   color: #330703;
   background: rgb(0, 186, 200);
   box-shadow: 3px 4px 6px #dfdede;
@@ -66,8 +68,8 @@ h1 {
   transition: 0.3s;
 }
 #area {
-  height: 30px;
-  width: 135px;
+  height: 1.875rem;
+  width: 8.438rem;
   border: none;
   outline: none;
   color: #d4f0d6;
@@ -76,10 +78,4 @@ h1 {
   margin: 0 0.313rem;
   box-shadow: 3px 4px 6px #dfdede;
   transition: 0.3s;
-}
-
-@media only screen and (max-width: 426px) {
-  #firstnum {
-    width: 400px;
-  }
 }
